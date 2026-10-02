@@ -70,3 +70,22 @@ Girish Lade
 -   **GitHub**: [@girishlade111](https://github.com/girishlade111)
 -   **Codepen**: [@Girish-Lade-the-looper](https://codepen.io/Girish-Lade-the-looper)
 -   **Email**: [girishlade111@gmail.com](mailto:girishlade111@gmail.com)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/              # Next.js App Router (layout, page, global styles)
+├── components/       # TipEase calculator + ShadCN UI components
+├── hooks/            # Custom hooks (mobile detection, toast)
+└── lib/              # Utility helpers
+```
+
+## 🌐 Deploy Notes
+
+The app is fully client-side and exports as a static site (`output: "export"` in `next.config.ts`).
+It can be hosted on any static host — GitHub Pages, Cloudflare Pages, or Netlify.
+
+---
+
+*Built by Girish Lade — https://ladestack.in*
